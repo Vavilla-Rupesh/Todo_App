@@ -1,0 +1,86 @@
+        .container{
+            display: flex;
+            gap:100px;
+            background: rgb(2,0,36);
+            background: linear-gradient(249deg, rgba(2,0,36,1) 0%, rgba(121,9,118,1) 0%, rgba(58,115,189,1) 50%, rgba(0,212,255,1) 100%);
+            height: 100vh;
+        }
+        #heading{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 10vh;
+            background-color: black;
+        }
+        #todo-form,#display{
+            display: flex;
+            flex-direction: column;
+            gap:20px;
+        }
+        #todo-form{
+            background-color:ghostwhite;
+            font-size: medium;
+            font-weight: bold;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            padding: 20px;
+            margin: 20px;
+            width:100%;
+        }
+        #display{
+            gap:25px;
+            border:1px solid black;
+            width:100%;
+            padding: 20px;
+            margin:20px;
+        }
+        #todo-list{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            gap:20px;
+            padding: 5px;
+        }
+        img{
+            background-color: ghostwhite;
+        }
+        #todo-delete,#delete{
+            background-color: ghostwhite;
+            width:auto;
+            border: none;
+        }
+        .task-container{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            background-color: ghostwhite;
+            font-size: medium;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        .task-container > div {
+            width: 18%; /* Adjust this value as needed */
+            word-wrap: break-word; /* Break the word to next line if it exceeds the width */
+        }
+        #todo{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            width: 100%;
+            font-size: large;
+            font-weight: bold;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        #todo > div {
+            width: 18%; /* Adjust this value as needed */
+            word-wrap: break-word; /* Break the word to next line if it exceeds the width */
+        }
+        #save{
+            background-color: green;
+            color: white;
+            font-size: medium;
+            font-weight: bold;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            padding: 5px;
+            border-radius: 5px;
+        }
